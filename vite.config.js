@@ -7,7 +7,7 @@ export default defineConfig({
   server: {
     proxy: {
       '/api': {
-        target: 'https://agent-backend-qqwl.onrender.com',
+        target: 'https://backend-agent-y32y.onrender.com',
         changeOrigin: true
       }
     }
